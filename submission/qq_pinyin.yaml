@@ -2,8 +2,7 @@
 # 目标路径：src/layouts/qq_pinyin.yaml
 # 提交后运行 `uv run python scripts/ci-update.py` 生成 layouts/index.yaml
 #
-# 待办：screenshots 必须换成真实键盘截图（在曦码设置界面预览本布局后截的九键/英文/数字三张），
-# 把图片放进本仓库 screenshots/ 后提交，再把下面的 URL 固定到该 commit 的 SHA。
+# 待办：无。截图 URL 已固定到图片入库的 commit SHA，可直接提 PR。
 
 id: qq_pinyin
 name: QQ拼音版布局
@@ -15,11 +14,10 @@ license: MIT
 appVersion: ">=3.0.0"
 requiresSchemes: []
 screenshots:
-  # TODO 换成真实截图，固定到 commit SHA（不要用 main）：
-  # - https://raw.githubusercontent.com/YeJing22/xime-layout-qq-pinyin/<COMMIT_SHA>/screenshots/01-t9.png
-  - https://raw.githubusercontent.com/YeJing22/xime-layout-qq-pinyin/<COMMIT_SHA>/screenshots/01-t9.png
-  - https://raw.githubusercontent.com/YeJing22/xime-layout-qq-pinyin/<COMMIT_SHA>/screenshots/02-en.png
-  - https://raw.githubusercontent.com/YeJing22/xime-layout-qq-pinyin/<COMMIT_SHA>/screenshots/03-number.png
+  # 固定到 commit SHA（1c919a0 即图片入库那次提交，不要改成 main）
+  - https://raw.githubusercontent.com/YeJing22/xime-layout-qq-pinyin/1c919a0e6c5a3403543c8a58b8dd160b5a401c98/screenshots/01-t9.jpg
+  - https://raw.githubusercontent.com/YeJing22/xime-layout-qq-pinyin/1c919a0e6c5a3403543c8a58b8dd160b5a401c98/screenshots/02-en.jpg
+  - https://raw.githubusercontent.com/YeJing22/xime-layout-qq-pinyin/1c919a0e6c5a3403543c8a58b8dd160b5a401c98/screenshots/03-number.jpg
 currentVersion: "1.0.0"
 versions:
   - version: "1.0.0"
