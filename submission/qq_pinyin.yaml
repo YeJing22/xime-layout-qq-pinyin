@@ -11,7 +11,7 @@ description: 只改九键、英文 26 键与数字键盘的键位和手势。九
 tags: [布局, 快捷键]
 repo: https://github.com/YeJing22/xime-layout-qq-pinyin
 license: MIT
-appVersion: ">=3.0.0"
+appVersion: ">=3.3.0"
 requiresSchemes: []
 screenshots:
   # 固定到 commit SHA（1c919a0 即图片入库那次提交，不要改成 main）
