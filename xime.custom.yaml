@@ -1,6 +1,6 @@
 metadata:             # 版本信息（可选，自动生成，一般无需手改）
   app_name: Xime
-  app_version: ">=3.0.0"
+  app_version: ">=3.3.0"
   platform: android
   config_version: 1
 
