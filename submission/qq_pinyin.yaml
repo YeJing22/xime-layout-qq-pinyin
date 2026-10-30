@@ -1,0 +1,31 @@
+# xime-index 投稿条目草稿
+# 目标路径：src/layouts/qq_pinyin.yaml
+# 提交后运行 `uv run python scripts/ci-update.py` 生成 layouts/index.yaml
+#
+# 待办：screenshots 必须换成真实键盘截图（在曦码设置界面预览本布局后截的九键/英文/数字三张），
+# 把图片放进本仓库 screenshots/ 后提交，再把下面的 URL 固定到该 commit 的 SHA。
+
+id: qq_pinyin
+name: QQ拼音版布局
+author: YeJing22
+description: 只改九键、英文 26 键与数字键盘的键位和手势。九键数字键下滑直达复制/粘贴/剪切/换行/全选，5 键四向滑移光标，7/8/9 上滑出中文标点；英文 q-p 上滑数字、a-l 上滑标点、z-m 上滑符号；数字键盘左栏四则运算、右侧竖排功能键。不含配色与字体，套用后原主题不变。
+tags: [布局, 快捷键]
+repo: https://github.com/YeJing22/xime-layout-qq-pinyin
+license: MIT
+appVersion: ">=3.0.0"
+requiresSchemes: []
+screenshots:
+  # TODO 换成真实截图，固定到 commit SHA（不要用 main）：
+  # - https://raw.githubusercontent.com/YeJing22/xime-layout-qq-pinyin/<COMMIT_SHA>/screenshots/01-t9.png
+  - https://raw.githubusercontent.com/YeJing22/xime-layout-qq-pinyin/<COMMIT_SHA>/screenshots/01-t9.png
+  - https://raw.githubusercontent.com/YeJing22/xime-layout-qq-pinyin/<COMMIT_SHA>/screenshots/02-en.png
+  - https://raw.githubusercontent.com/YeJing22/xime-layout-qq-pinyin/<COMMIT_SHA>/screenshots/03-number.png
+currentVersion: "1.0.0"
+versions:
+  - version: "1.0.0"
+    date: "2026-10-30"
+    changelog: 初始版本
+    downloadUrl:
+      - url: https://github.com/YeJing22/xime-layout-qq-pinyin/releases/download/1.0.0/xime.custom.yaml
+        sha256: "18783a2c64b5351c34240ca667d805dd0953cbfd081a5129765b636458ac18af"
+        size: "8.6 KB"
